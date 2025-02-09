@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="uk">
 
-<head>
+<head xmlns="http://www.w3.org/1999/html">
     <meta charset="utf-8">
     <title>
         Павук-стрибунець
@@ -19,15 +19,15 @@
 
     <div>
         <nav>
-<span>
-  Головна
-</span>
-            <span>
-        Каталог
-      </span>
-            <span>
-        Контакти
-      </span>
+            <a href="#home">
+                Головна
+            </a>
+            <a href="#catalog">
+                Каталог
+            </a>
+            <a href="#contacts">
+                Контакти
+            </a>
         </nav>
     </div>
 
@@ -40,7 +40,7 @@
 </header>
 
 <body>
-<div>
+<div id="home">
     <p>
         Твій новий восьминогий друг уже чекає!
     </p>
@@ -58,7 +58,7 @@
 </div>
 
 <div>
-    <h2>
+    <h2 id="catalog">
         Каталог
     </h2>
     <div>
@@ -108,13 +108,14 @@
     </div>
 
     <div>
-<span>
-  Зацікавила пропозиція?
-</span>
-        <span>
-  Залиште ваші контакти та наші
-консультанти звʼяжуться з вами
-        </span>
+        <p>
+            Зацікавила пропозиція?
+        </p>
+        <p>
+            Залиште ваші контакти та наші
+            консультанти звʼяжутьсяз Вами
+        </p>
+        <br>
         <form>
             <label for="phone">
                 Телефон
@@ -141,15 +142,14 @@
                 Купити
             </button>
         </form>
-
     </div>
-</div>
+    </div>
 </body>
 
 <footer>
     <div>
+
         <div>
-            <div>
                 <img alt="black spider" src="img/image-1_2025-02-09/image-1.jpg">
                 <h1>
                     Веселий стрибунець
@@ -158,41 +158,37 @@
 
             <div>
                 <nav>
-<span>
-  Головна
-</span>
-                    <span>
-        Каталог
-      </span>
-                    <span>
-        Контакти
-      </span>
+                    <a href="#home">
+                        Головна
+                    </a>
+                    <a href="#catalog">
+                        Каталог
+                    </a>
+                    <a href="#contacts">
+                        Контакти
+                    </a>
                 </nav>
             </div>
 
-            <div>
+        <div id="contacts">
                 <nav>
-                    <a href="https://www.instagram.com/">
-                        <img alt="instagram icon" src="img/inst/mdi-instagram.png">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img alt="instagram icon" src="img/inst/mdi-instagram.png" >
                     </a>
-                    <a href="https://www.facebook.com/">
+                    <a href="https://www.facebook.com/" target="_blank">
                         <img alt="facebook icon" src="img/facebook/mingcute-facebook-line.png">
                     </a>
-                    <a href="https://x.com/">
+                    <a href="https://x.com/" target="_blank">
                         <img alt="twitter icon" src="img/twitter/hugeicons-twitter.png">
                     </a>
                 </nav>
             </div>
-
-        </div>
-
         <div>
-            <a href=""> Privacy Policy</a>
-            <a href=""> Terms of Use</a>
+            <a href="" target="_blank"> Privacy Policy</a>
+            <a href="" target="_blank"> Terms of Use</a>
             All rights restricted by Natali
             2025
         </div>
-    </div>
+        </div>
 </footer>
-
 </html>
