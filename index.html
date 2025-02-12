@@ -1,45 +1,44 @@
 <!doctype html>
 <html lang="uk">
 
-<head xmlns="http://www.w3.org/1999/html">
+<head>
     <meta charset="utf-8">
+
+    <link href="css/style.css" type="text/css" rel="stylesheet">
     <title>
         Павук-стрибунець
     </title>
-    <link href="css/style.css" rel="stylesheet">
+
 </head>
 
-<header>
-    <div>
-        <img alt="black spider" src="img/image-1_2025-02-09/image-1.jpg">
-        <h1>
-            Веселий стрибунець
-        </h1>
-    </div>
+<header class="header">
+    <div class="container container__header">
+        <div>
+            <img alt="black spider" src="img/logo/frame-5.png">
+        </div>
 
-    <div>
-        <nav>
-            <a href="#home">
-                Головна
-            </a>
-            <a href="#catalog">
-                Каталог
-            </a>
-            <a href="#contacts">
-                Контакти
-            </a>
-        </nav>
-    </div>
+        <div class="container__item">
+            <nav>
+                <a class="nav__link" href="#home">
+                    Головна
+                </a>
+                <a class="nav__link" href="#catalog">
+                    Каталог
+                </a>
+                <a class="nav__link" href="#contacts">
+                    Контакти
+                </a>
+            </nav>
 
-    <div>
-        <button>
-            Купити
-        </button>
+            <button class="header__btn">
+                <span class="header__btn-text">Купити</span>
+            </button>
+        </div>
     </div>
-
 </header>
 
 <body>
+<div class="container">
 <div id="home">
     <p>
         Твій новий восьминогий друг уже чекає!
@@ -113,10 +112,10 @@
         </p>
         <p>
             Залиште ваші контакти та наші
-            консультанти звʼяжутьсяз Вами
+            консультанти звʼяжуться з Вами
         </p>
         <br>
-        <form>
+        <form method="post">
             <label for="phone">
                 Телефон
             </label>
@@ -144,12 +143,12 @@
         </form>
     </div>
     </div>
+</div>
 </body>
 
 <footer>
     <div>
-
-        <div>
+    <div>
                 <img alt="black spider" src="img/image-1_2025-02-09/image-1.jpg">
                 <h1>
                     Веселий стрибунець
@@ -172,23 +171,25 @@
 
         <div id="contacts">
                 <nav>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img alt="instagram icon" src="img/inst/mdi-instagram.png" >
+                    <a class="Navigation__linck" href="https://www.instagram.com/" target="_blank">
+                        <img alt="instagram icon" src="img/inst/mdi-instagram.png">
                     </a>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a class="Navigation__linck" href="https://www.facebook.com/" target="_blank">
                         <img alt="facebook icon" src="img/facebook/mingcute-facebook-line.png">
                     </a>
-                    <a href="https://x.com/" target="_blank">
+                    <a class="Navigation__linck" href="https://x.com/" target="_blank">
                         <img alt="twitter icon" src="img/twitter/hugeicons-twitter.png">
                     </a>
                 </nav>
             </div>
-        <div>
+    </div>
+
+
+    <div>
             <a href="" target="_blank"> Privacy Policy</a>
             <a href="" target="_blank"> Terms of Use</a>
             All rights restricted by Natali
             2025
-        </div>
-        </div>
+    </div>
 </footer>
 </html>
